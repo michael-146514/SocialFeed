@@ -23,7 +23,7 @@ const PostItem = ({ name, post, likes, Dislike }) => {
   const btnDislike = isDisliked ? "active-btn" : "";
 
   return (
-    <div className="post-box">
+    <div>
       <div>
         <h4>{name}</h4>
       </div>
@@ -34,9 +34,12 @@ const PostItem = ({ name, post, likes, Dislike }) => {
         <button className={btnLike} onClick={handleLikeClick}>
           Like
         </button>
+
         <button className={btnDislike} onClick={handleDislikeClick}>
           DisLike
         </button>
+
+        <hr />
       </div>
     </div>
   );

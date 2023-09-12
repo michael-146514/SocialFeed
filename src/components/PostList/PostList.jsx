@@ -6,8 +6,7 @@ const PostList = ({ posts = [] }) => {
   ));
 
   return (
-    <div>
-      <h3>Posts</h3>
+    <div className="post-box">
       <div>{postItems}</div>
     </div>
   );

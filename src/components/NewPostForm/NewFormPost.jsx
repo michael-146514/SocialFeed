@@ -19,7 +19,11 @@ const NewPostForm = ({ onNewPost }) => {
       <div>
         <div>
           <h3>Name</h3>
-          <input value={name} onChange={(e) => setName(e.target.value)} />
+          <input
+            className="form-name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
         </div>
         <div>
           <h3>Post</h3>

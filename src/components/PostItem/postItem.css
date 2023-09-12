@@ -3,11 +3,31 @@
 }
 
 .post-box {
-  /* Feed Background */
+  /* Post Input Background */
+  align-content: center;
+  margin: 50px auto;
+  width: 875px;
+  height: auto;
 
   border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
 
-  filter: drop-shadow(10px 10px 3px rgba(252, 252, 252, 0.16));
+  filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.16));
 
   background: #ffffff;
+}
+
+.post-box h4 {
+  padding-left: 50px;
+}
+
+.post-box p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.post-box button {
+  margin-left: 80%;
 }
