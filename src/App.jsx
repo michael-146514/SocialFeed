@@ -20,22 +20,22 @@ const initData = [
 ];
 
 function App() {
-  const [posts, setPost] = useState([]);
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    setPost(initData);
+    setPosts(initData);
   }, []);
 
   const handleNewPost = (newPost) => {
     const updatedPosts = [...posts, newPost];
-    setPost(updatedPosts);
+    setPosts(updatedPosts);
   };
 
   return (
     <div className="App">
       <Header />
       <NewPostForm onNewPost={handleNewPost} />
-      <PostList posts={initData} />
+      <PostList posts={posts} />
     </div>
   );
 }

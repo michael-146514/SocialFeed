@@ -4,16 +4,13 @@ const NewPostForm = ({ onNewPost }) => {
   const [name, setName] = useState("");
   const [post, setPost] = useState("");
 
-  console.log(name);
-  console.log(post);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = {
       name,
       post,
     };
-
+    console.log(formData);
     onNewPost(formData);
   };
 
