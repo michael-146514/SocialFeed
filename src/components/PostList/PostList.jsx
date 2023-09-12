@@ -1,16 +1,14 @@
-const PostList = ({ name, post }) => {
+import PostItem from "../PostItem/PostItem";
+
+const PostList = ({ posts = [] }) => {
+  const postItems = posts.map((post) => (
+    <PostItem key={post.name} name={post.name} post={post.post} />
+  ));
+
   return (
     <div>
-      <div>
-        <h4>{name}</h4>
-      </div>
-      <div>
-        <p>{post}</p>
-      </div>
-      <div>
-        <button>Like</button>
-        <button>DisLike</button>
-      </div>
+      <h3>Posts</h3>
+      <div>{postItems}</div>
     </div>
   );
 };
