@@ -1,0 +1,13 @@
+.active-btn {
+  background-color: lightblue;
+}
+
+.post-box {
+  /* Feed Background */
+
+  border-color: #707070;
+
+  filter: drop-shadow(10px 10px 3px rgba(252, 252, 252, 0.16));
+
+  background: #ffffff;
+}

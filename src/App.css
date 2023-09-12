@@ -2,3 +2,19 @@ body {
   margin: 0px;
   background-color: #e2f2ee;
 }
+
+.new-form {
+  /* Post Input Background */
+
+  width: 1049px;
+  height: 207px;
+
+  border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+
+  filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.16));
+
+  background: #ffffff;
+}

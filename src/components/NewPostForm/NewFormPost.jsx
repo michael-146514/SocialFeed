@@ -15,7 +15,7 @@ const NewPostForm = ({ onNewPost }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="new-form" onSubmit={handleSubmit}>
       <div>
         <div>
           <h3>Name</h3>

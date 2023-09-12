@@ -7,15 +7,15 @@ import React, { useState, useEffect } from "react";
 const initData = [
   {
     name: "Forrest Gump",
-    post: "helloooo world, this is my post. Im bored and gayyyy lmao",
+    post: "helloooo world, this is my post. I",
   },
   {
     name: "s Gump",
-    post: "helloooo world, ths post. Im bored and gayyyy lmao",
+    post: "helloooo world, ths post. Im bored an lmao",
   },
   {
     name: "a Gump",
-    post: "helloooo worldsis my post. Im bored and gayyyy lmao",
+    post: "helloooo worldsis my post. Im bored and  lmao",
   },
 ];
 
