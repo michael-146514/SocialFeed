@@ -6,16 +6,16 @@ import React, { useState, useEffect } from "react";
 
 const initData = [
   {
-    name: "Forrest Gump",
-    post: "helloooo world, this is my post. I",
+    name: "Danimal",
+    post: "Byeee world, this is my post. I am Danimal",
   },
   {
-    name: "s Gump",
-    post: "helloooo world, ths post. Im bored an lmao",
+    name: "Amy",
+    post: "helloooo world, this is my post. I am Amy",
   },
   {
-    name: "a Gump",
-    post: "helloooo worldsis my post. Im bored and  lmao",
+    name: "Mike",
+    post: "Hello Im Michael! :)",
   },
 ];
 

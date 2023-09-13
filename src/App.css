@@ -31,14 +31,21 @@ body {
 }
 
 .new-form button {
+  border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  width: 75px;
+  height: 25px;
   margin-left: 780px;
+  background: #1867ab;
 }
 
 .new-form .form-name {
   position: absolute;
   margin-left: 150px;
-  padding-left: 150px;
+
   margin-top: -20px;
-  width: 450px;
+  width: 600px;
   height: 15px;
 }
